@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-This is my personal starter setup for React/Typescript projects.
+This is my personal starter setup for React/Typescript projects. The guiding principle is: no junk.
 
 Includes my prefered configuration for the following tools:
 - prettier
@@ -8,19 +8,12 @@ Includes my prefered configuration for the following tools:
 - styled-components
 - yarn
 
-
 React boilerplate below:
 ## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
+- `yarn start`
+- `yarn build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.

@@ -4,11 +4,19 @@ import styled from "styled-components";
 
 function App() {
   return (
-    <div className="App">
-      <AppHeader>
-        <p>This is Finn&apos;s ez-starter repo. Take it eazy man!</p>
-      </AppHeader>
-    </div>
+    <AppHeader>
+      <p>This is Finn&apos;s ez-starter repo.</p>
+      <p>
+        It includes great tools like:
+        <ul>
+          <li>typescript</li>
+          <li>eslint</li>
+          <li>prettier</li>
+          <li>styled-components</li>
+        </ul>
+      </p>
+      <p>Take it eazy man!</p>
+    </AppHeader>
   );
 }
 
