@@ -28,7 +28,6 @@ module.exports = {
     "jsx-a11y/label-has-associated-control": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "jsx-a11y/click-events-have-key-events": 0,
-    "jest/no-jest-import": 0,
     "react-hooks/exhaustive-deps": 0,
     "eslint-plugin-jsx-a11y/label-has-associated-control": 0,
     "no-param-reassign": 0,
@@ -101,9 +100,6 @@ module.exports = {
     ],
     "react-hooks/rules-of-hooks": ["error"],
     /** don't disable rules that aren't breaking */
-    "eslint-comments/no-unused-disable": ["error"],
-    "eslint-comments/no-unlimited-disable": 0,
-    "eslint-comments/disable-enable-pair": 0,
     "import/prefer-default-export": 0,
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -124,20 +120,9 @@ module.exports = {
     ],
     "eslint-disable-next-line no-cond-assign": 0,
     "react/prop-types": 0,
-    "jsdoc/check-alignment": 1, // Recommended
-    "jsdoc/check-indentation": 1,
-    "jsdoc/check-param-names": ["error", { checkDestructured: false }],
-    "jsdoc/newline-after-description": 1, // Recommended
     "import/no-relative-parent-imports": ["error"],
   },
-  ignorePatterns: [
-    "webpack.dev.js",
-    "webpack.prod.js",
-    "webpack.common.js",
-    "node_modules",
-    "build",
-    "jest.config.js",
-  ],
+  ignorePatterns: ["webpack.dev.js", "webpack.prod.js", "webpack.common.js", "node_modules", "build"],
   overrides: [
     {
       // enable the rule specifically for TypeScript files
@@ -153,15 +138,6 @@ module.exports = {
       },
     },
     /**
-     * Cypress should not enforce this
-     */
-    {
-      files: ["*spec.ts"],
-      rules: {
-        "jest/valid-expect": 0,
-      },
-    },
-    /**
      * yarn v2 supports referencing own package name as @main/whatever
      * from within that package.  This is generally cleaner than finding
      * a relative import using hella ../../.. 's.  We want to turn
@@ -174,9 +150,4 @@ module.exports = {
       },
     },
   ],
-  settings: {
-    jest: {
-      version: 26,
-    },
-  },
 };

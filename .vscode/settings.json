@@ -1,0 +1,32 @@
+{
+    // Exclude from search
+    "search.exclude": {
+        "**/build/**": true,
+        ".yarn": true,
+        "yarn.lock": true,
+    },
+    // Disable linting rules that you don't want on save
+    "eslint.options": {
+        "rules": {
+            "@typescript-eslint/explicit-module-boundary-types": 0,
+            "@typescript-eslint/no-unused-vars": 0,
+            "eslint-comments/no-unused-disable": 0,
+            "no-console": 0,
+        },
+        "ignore_patterns": [
+            "index.d.ts"
+        ]
+    },
+    // Format correctly on save
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true,
+    // "files.exclude": {
+    //     "**/node_modules/**": true,
+    // },
+}
