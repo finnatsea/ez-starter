@@ -21,7 +21,7 @@ The ez-starter eliminates the need for configuration by using the right tool for
 
 The ez-starter comes with eslint and prettier configured out of the box. It also uses Typescript with the correct tsconfig.json file (don't even look at it). Prettier takes care of formatting. I've yet to run into a situation where I wanted to use a different formatter.
 
-## ez-starter Features
+## Features
 - format and lint on save
 - autosort imports on save (with react at the top)
 - no janky tests
