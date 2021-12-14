@@ -5,13 +5,15 @@ import styled from "styled-components";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <AppHeader>
         <p>This is Finn&apos;s ez-starter repo. Take it eazy man!</p>
-      </header>
+      </AppHeader>
     </div>
   );
 }
 
 export default App;
 
-const AppHeader = styled.div``;
+const AppHeader = styled.div`
+  font-family: "Times", "serif";
+`;
