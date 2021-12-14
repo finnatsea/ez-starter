@@ -14,6 +14,7 @@ function App() {
           <li>prettier</li>
           <li>styled-components</li>
         </ul>
+        They are all setup and ready to go out of the box.
       </p>
       <p>Take it eazy man!</p>
     </AppHeader>
@@ -23,5 +24,6 @@ function App() {
 export default App;
 
 const AppHeader = styled.div`
+  padding: 20px;
   font-family: "Times", "serif";
 `;
