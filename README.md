@@ -1,5 +1,7 @@
-# Getting Started with Create React App
+# ez-starter
 This is my personal starter setup for React/Typescript projects. The guiding principle is: no junk.
+
+The essentials, but nothing more. I find that most projects start to bloat with plugins and configurations. The ez-starter keeps things minimal.
 
 Includes my prefered configuration for the following tools:
 - prettier
@@ -7,10 +9,31 @@ Includes my prefered configuration for the following tools:
 - typescript
 - styled-components
 - yarn
+- vscode
 
-React boilerplate below:
-## Available Scripts
+## Lifestyle
+What is the ez-starter lifestyle like? Simple. You don't waste time setting up the basics, but your coding isn't slowed by lack of tooling either. Starting a project without formatting or linting is a noob move, but so is starting a project with a rando `create-react-app` template with 60,000 things going on.
 
+## No Configuration
+Why would you ever want to spend time configuring a tool only to be left with a less than optimal configuration?
+
+The ez-starter eliminates the need for configuration by using the right tool for the job.
+
+The ez-starter comes with eslint and prettier configured out of the box. It also uses Typescript with the correct tsconfig.json file (don't even look at it). Prettier takes care of formatting. I've yet to run into a situation where I wanted to use a different formatter.
+
+## ez-starter Features
+- format and lint on save
+- autosort imports on save (with react at the top)
+- no janky tests
+- sensible vscode settings
+
+## Forking ez-starter
+If you want to fork ez-starter, go for it. However, if you abandon the ez-starter spirit, I will hunt you down and murder you.
+
+Oh, and if you make changes, please open a pull request. More eyeballs = fewer bugs.
+
+## cra boilerplate
+### Available Scripts
 
 - `yarn start`
 - `yarn build`
@@ -23,7 +46,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+#### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
