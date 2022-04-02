@@ -9,7 +9,8 @@
     "react",
     "@typescript-eslint",
     "unused-imports",
-    "react-hooks"
+    "react-hooks",
+    "import"
   ],
   "env": {
     "browser": true,
@@ -73,6 +74,7 @@
     "import/order": [
       "error",
       {
+        // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         "groups": [
           [
             "builtin",
